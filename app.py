@@ -1,5 +1,12 @@
 import os
 from flask import Flask
+import os.path
+
+if os.path.isfile("setenv.py"):
+    print "I found it. I must be LOCAL"
+    import setenv
+else:
+    print "I must be running in PWS"
 
 app = Flask(__name__)
 
