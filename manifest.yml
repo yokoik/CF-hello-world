@@ -1,7 +1,7 @@
 # With this file present in the directory
 # you only type "cf push"
 applications:
-- name: piperhw-yokoik
+- name: pipeyokoi
   memory: 64M
   disk_quota: 256M
   instances: 1
